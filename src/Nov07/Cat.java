@@ -2,7 +2,7 @@ package Nov07;
 
 import Main.Human;
 
-public class Cat extends Animal{
+public abstract class Cat extends Animal{
     String breed;
     String fav_food;
     String color;
@@ -13,10 +13,6 @@ public class Cat extends Animal{
         super(name,age);
     }
 
-    @Override
-    public void makeSound() {
-        System.out.println("Cat " + name + " goes meow meow");
-    }
 
     public void purr() {
         System.out.println(name + ": prrrrrrr");
