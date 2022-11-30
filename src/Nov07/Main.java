@@ -17,18 +17,19 @@ public class Main {
         nyeko.eat();
         nyeko.makeSound();
 
-        Fish nemo = new Clownfish("Nemo", 1);
-        Animal anim = new Dog("Meowy", 5);
-        nemo.eat();
-        Whale whale = new Whale("Whale", 70);
-        nemo.makeSound();
+//        Fish nemo = new Clownfish("Nemo", 1);
+//        nemo.swim();
+//        Animal anim = new Dog("Meowy", 5);
+//        nemo.eat();
+//        Whale whale = new Whale("Whale", 70);
+//        nemo.makeSound();
 
         ArrayList<Animal> animals = new ArrayList<>();
         animals.add(nyeko);
         animals.add(nova);
-        animals.add(nemo);
-        animals.add(anim);
-        animals.add(whale);
+//        animals.add(nemo);
+//        animals.add(anim);
+//        animals.add(whale);
         Bird pangu = new Penguin("Pangu", 7);
         animals.add(pangu);
 

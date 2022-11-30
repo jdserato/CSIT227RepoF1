@@ -6,11 +6,6 @@ public abstract class Fish extends Animal implements Swimmer, EggLayers {
     }
 
     @Override
-    public void swim() {
-        System.out.println("JUST KEEP SWIMMING");
-    }
-
-    @Override
     public void makeSound() {
         System.out.println("Fish " + name + " goes bloop bloop");
     }
